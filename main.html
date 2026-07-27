@@ -5,37 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>@pupexa — все ссылки</title>
 
-<!--
-  ===================================================================
-  КАК РЕДАКТИРОВАТЬ ЭТУ СТРАНИЦУ
-  ===================================================================
-  Откройте файл в любом текстовом редакторе (Блокнот, TextEdit, VS Code).
-  Ничего кодить не нужно — просто меняйте текст между тегами.
-
-  1. ИМЯ, АВАТАР, ПОДПИСЬ — ищите блок <div class="profile"> в <body>.
-
-  2. ССЫЛКИ — каждая соцсеть это отдельный блок <a class="link-card ...">.
-     Чтобы поменять адрес — меняйте текст внутри href="...".
-     Чтобы поменять подпись — меняйте текст внутри <span class="link-label">.
-
-  3. ДОБАВИТЬ НОВУЮ ССЫЛКУ — скопируйте один блок <a class="link-card">…</a>
-     целиком (от <a до закрывающего </a>), вставьте после последнего,
-     задайте новый цвет через style="--shadow-color:#ХХХХХХ" на самом <a>
-     и такой же цвет фона на .link-icon внутри него.
-
-  4. УДАЛИТЬ ССЫЛКУ — сотрите блок <a class="link-card">…</a> целиком.
-
-  5. ЦВЕТА ФОНА И КАРТОЧЕК — в начале <style> ниже, в блоке :root{...}.
-     Каждая переменная подписана комментарием — какой это цвет и где он
-     используется. Замените hex-код (например #FF3E8A) на свой.
-
-  6. ШРИФТЫ — сейчас используются Fredoka (заголовки) и Manrope (текст),
-     подключены через Google Fonts ниже в <head>. Можно заменить на
-     любую другую пару с fonts.google.com — просто поменяйте ссылку
-     и названия шрифтов в CSS (font-family).
-  ===================================================================
--->
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -112,8 +81,6 @@
     font-size: 2.4rem;
     color: var(--ink);
     margin: 0 auto 18px;
-    /* Хотите фото вместо буквы? Замените строку выше на:
-       <img src="ссылка_на_фото.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"> */
   }
   
   .avatar img {
@@ -269,7 +236,7 @@
 
   <!-- ===== ПРОФИЛЬ: имя, аватар, подпись — редактируйте свободно ===== -->
   <div class="profile">
-    <div class="avatar"><img src="AVATAR.png" alt="Аватар @pupexa"></div>
+    <div class="avatar"><img src="img/AVATAR.png" alt="Аватар @pupexa"></div>
     <h1 class="name">@pupexa</h1>
     <p class="bio">все мои соцсети в одном месте ✨</p>
   </div>
@@ -279,14 +246,23 @@
   <!-- ===== ГАЛЕРЕЯ РАБОТ ===== -->
   <h2 class="section-title">примеры работ</h2>
   <div class="gallery">
-    <a class="gallery-item" href="work1.jpg" target="_blank" rel="noopener noreferrer">
+    <a class="gallery-item" href="img/work1.jpg" target="_blank" rel="noopener noreferrer">
       <img src="work1.jpg" alt="Работа 1">
     </a>
-    <a class="gallery-item" href="work2.jpg" target="_blank" rel="noopener noreferrer">
+    <a class="gallery-item" href="img/work2.jpg" target="_blank" rel="noopener noreferrer">
       <img src="work2.jpg" alt="Работа 2">
     </a>
-    <a class="gallery-item" href="work3.jpg" target="_blank" rel="noopener noreferrer">
+    <a class="gallery-item" href="img/work3.jpg" target="_blank" rel="noopener noreferrer">
       <img src="work3.jpg" alt="Работа 3">
+    </a>
+	  <a class="gallery-item" href="img/work4.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="work4.jpg" alt="Работа 4">
+    </a>
+	  <a class="gallery-item" href="img/work5.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="work5.jpg" alt="Работа 5">
+    </a>
+	  <a class="gallery-item" href="img/work6.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="work6.jpg" alt="Работа 6">
     </a>
   </div>
 
