@@ -1,2 +1,0 @@
-# pupexa.github.io
-Pupexa
